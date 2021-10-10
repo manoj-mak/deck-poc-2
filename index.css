@@ -26,7 +26,7 @@ body {
     font-family: 'Nunito', sans-serif;
     position: absolute;
     background: rgb(28, 37, 66);
-    bottom: 0;
+    bottom: 10;
     right: 0;
     color: aliceblue;
     margin: 12px;
@@ -115,4 +115,6 @@ body {
 .dropdown:hover .dropbtn {
   background-color: rgb(32, 55, 131);
 }
+
+
 
