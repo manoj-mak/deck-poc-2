@@ -20,7 +20,7 @@ const deckgl = new deck.DeckGL({
 
 
   //april data:
-  //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/april.json');
+  const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/april.json');
 
   //may data:
   //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/may.json');
@@ -32,7 +32,7 @@ const deckgl = new deck.DeckGL({
   //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/july.json');
 
   //august data:
-  const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/august.json');
+  //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/august.json');
 
   //
   
@@ -86,20 +86,7 @@ const deckgl = new deck.DeckGL({
       ...options,
 
       pickable: true,
-     /* onHover: ({object, x, y}) => {
-        const el = document.getElementById('tooltip');
-        if (object) {
-          const { Volume, District } = object;
-          el.innerHTML = `<h1>${District} : ${Volume}</h1>`
-          el.style.display = 'block';
-          el.style.opacity = 0.9;
-          el.style.left = x + 'px';
-          el.style.top = y + 'px';
-        } else {
-          el.style.opacity = 0.0;
-        }
-    },
-    */
+     
 
 
 

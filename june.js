@@ -26,13 +26,13 @@ const deckgl = new deck.DeckGL({
   //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/may.json');
 
   //june data :
-  //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/june.json');
+  const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/june.json');
 
   //july data:
   //const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/july.json');
 
   //august data:
-  const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/august.json');
+ // const data = d3.json('https://raw.githubusercontent.com/manoj-mak/deckgl-data-visualization/master/august.json');
 
   //
   
